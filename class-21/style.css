@@ -1,0 +1,111 @@
+
+/*================== 1. Start Template Common CSS ===============*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7;
+    
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 300;
+}
+
+
+
+/*========================   Nav manu ==================*/
+
+.header-top-area {
+  background: #218ae6;
+  padding: 10px 0;
+}
+.header-top-area, .header-top-area a {
+  color: #fff;
+}
+.header-top-area .text-right i.fa {
+  padding-left: 20px;
+}
+a {
+}
+.header-area h3 {
+  font-weight: 700;
+  margin: 24px 0;
+}
+.header-area h3 a {
+  color: #333;
+}
+.header-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-area li {
+  display: inline-block;
+}
+.header-area li a {
+  display: block;
+  padding: 25px;
+  color: ;
+  color: #333;
+  text-transform: uppercase;
+  padding-right: 0;
+  padding-left: 50px;
+}
+.header-area li a:hover {
+  color: #218ae6;
+}
+.homepage-slides {
+  background: #218ae6;
+  color: #fff;
+  font-size: 17px;
+}
+.homepage-slides h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.slide-btn {
+  background: #f9cf25;
+  color: #333;
+  padding: 12px 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 13px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.single-homepage-slides {
+	padding: 100px 0;
+}
+.homepage-slides .owl-dots div {
+	background: #fff;
+	display:inline-block;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	margin: 5px;
+}
+.homepage-slides .owl-dots div.active{
+	background-color: #f9cf25;
+}
+.homepage-slides .owl-dots {
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+.owl-theme .owl-dots .owl-dot span {
+	display: none;
+}
+.single-homepage-slides img{
+	height: 400px;
+	width: 600px;
+}
+
+
+
